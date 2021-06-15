@@ -1,0 +1,28 @@
+        Caixa de Saída
+
+window.alert('') - Caixa de mensagem
+window.confirm('') - Caixa de confirmação
+window.prompt('') - Caixa de entrada de Dados, sempre entra dados como String
+
+typeof no termianl, retorna o tipo da variável.
+
+Number.parseInt(n); String para número ou apenas parseInt
+Number.parseFloat(n); String ou número para float parseFloat
+Number(n); JavaScript decide se é number ou float
+String(n); Converte para String
+n.toString();
+
+Placeholder ou seja da pra printar varios elementos basta usar dentro de CRASE o ${var} e pronto.
+
+s.lenght; tamanho da string
+s.toUpperCase(); tudo em Maisculo
+s.toLowerCase(); tudo em Minusculo
+
+document.write escreve no site o que você quer (sim agora você coloca as variáveis entre tags e funcionam gg)
+
+n.toFixed(quantidade_de_casas_decimais) - delimitar as casas decimais de um número.
+
+n1.toFixed(2).replace('.', ',') - trocar o ponto por vírgula.
+
+n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}); transforma em BRL
+pt-br = lingua, estilo é currency ou seja dnheiro, currency é BRL ou seja R$. onde pode-se por EUR ou USD, depende da moeda.
