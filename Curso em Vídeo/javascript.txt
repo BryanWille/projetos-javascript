@@ -54,3 +54,29 @@ mousedown - se clicar na tag com o mouse
 mouseup - desapertar o mouse na tag 
 click - clica rapidamente tag
 mouseout - mouse sai da tag
+
+                Função
+
+function nome(){
+        funções que vai fazer!
+}
+
+                EventListener
+
+variavel.addEventListener('evento', funcao_ou_oque_vai_fazer)
+
+ou podemos colocar tags.
+
+<h1 evento="atributos ou nomes"></h1>
+
+
+                Input
+
+Input são caixas de díalogos que o usuário coloca algo.
+são muito caixas de colocar dados basicamente.
+
+como é uma tag podemos colocar, nome id e class. mas as caixas de input também tem types, como se pode olhar melhor aqui https://www.w3schools.com/html/html_form_input_types.asp.
+
+Number(variavel.value) para converter de string para number.
+ou seja
+value retorna o valor de um getElementsBy* 
