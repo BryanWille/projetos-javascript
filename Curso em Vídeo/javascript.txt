@@ -26,3 +26,14 @@ n1.toFixed(2).replace('.', ',') - trocar o ponto por vírgula.
 
 n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}); transforma em BRL
 pt-br = lingua, estilo é currency ou seja dnheiro, currency é BRL ou seja R$. onde pode-se por EUR ou USD, depende da moeda.
+
+
+                Dom é como se fosse uma navegação por árvores 
+
+ex a principal é window depois temos document e em document é onde temos html, dentro de html temos as areas head e body e dentro delas as respectivas tags de tags de cada uma. podemos selecionar as tags por marca
+
+Marca = todas as tags, depois informamos qual o indice da tag a quantidade informada ex:
+window.document.getElementsByTagName('aqui_dentro_a_tag')[indice da tag, começa em 0]
+
+
+
