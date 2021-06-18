@@ -4,20 +4,26 @@ body{
     background-color: rgb(255, 255, 91);
 }
 h1{
-    padding-top: 30px;
+    margin: 0;
     text-align: center;
 }
-main{
-    display: inline;
+span{
+    display: block;
     background-color: white;
-}
-article{
-    text-align: center;
-    padding: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.377);
+    border-radius: 12px;
+    padding: 2px 0px 30% 0px;
+    margin-right: 13%;
+    margin-left: 13%;
+    margin-bottom: 3%;
 }
 p#resultado{
     font-size: x-large;
 }
+article{
+    text-align: center;
+}
+
 footer{
     position: fixed;
     left: 0;
@@ -29,8 +35,8 @@ footer{
     background-color: rgb(29, 27, 27);
 }
 footer > p{
+    margin: 0;
     padding: 2px 0px;
-    margin: -2px 0px -2px 0px;
 }
 a:visited, a:link{
     color:rgb(255, 255, 91);
