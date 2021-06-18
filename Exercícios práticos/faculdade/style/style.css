@@ -15,7 +15,7 @@ span{
     padding: 2px 0px 30% 0px;
     margin-right: 13%;
     margin-left: 13%;
-    margin-bottom: 3%;
+    margin-bottom: auto;
 }
 p#resultado{
     font-size: x-large;
@@ -23,7 +23,17 @@ p#resultado{
 article{
     text-align: center;
 }
-
+article > p {
+    font-size: 30px;
+}
+#salario, #nome {
+    height: 30px;
+    font-size: 14pt;
+}
+.confirmar{
+    width: auto;
+    height: 30px;
+}
 footer{
     position: fixed;
     left: 0;
