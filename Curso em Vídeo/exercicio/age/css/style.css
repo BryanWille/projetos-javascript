@@ -8,12 +8,14 @@ body{
     background-color: rgb(0, 140, 255);
 }
 main{
+    width: 300px;
+    height: 200px;
     background-color: white;
-    width: 500px;
-    height: 100px;
     margin: auto;
     padding: 4px;
+    border-radius: 6%;
 }
- a {
-    text-align: center;
+div#image > img{
+    margin: auto;
+    max-width: 100%;
 }

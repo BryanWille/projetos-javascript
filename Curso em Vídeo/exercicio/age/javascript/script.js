@@ -15,26 +15,26 @@ function verify(){
     } else if (man.checked){
         msg = `We've detected an man with ${age} years old.`;
         if (age <= 10){
-            img = '/home/elliwx/git/projetos-javascript/Curso em Vídeo/exercicio/age/img/child-man.jpg';
+            img = 'https://i.imgur.com/NPkfW2H.png';
         } else if (age <= 20 ){
-            img = '/home/elliwx/git/projetos-javascript/Curso em Vídeo/exercicio/age/img/young-man.jpg';
+            img = 'https://i.imgur.com/KWgUd3k.png';
         } else if (age <= 65){
-            img = '/home/elliwx/git/projetos-javascript/Curso em Vídeo/exercicio/age/img/adult-man.jpg';
+            img = 'https://i.imgur.com/kz9Jn7R.png';
         } else {
-            img = '/home/elliwx/git/projetos-javascript/Curso em Vídeo/exercicio/age/img/old-man.jpg';
+            img = 'https://i.imgur.com/UEOsCCk.png';
         }
     } else if (woman.checked){
         msg = `We've detected an woman with ${age} years old.`;
         if (age <= 10){
-            img = '/home/elliwx/git/projetos-javascript/Curso em Vídeo/exercicio/age/img/child-woman.jpg';
+            img = 'https://i.imgur.com/K2HDAR3.png';
         } else if (age <= 20){
-            img = '/home/elliwx/git/projetos-javascript/Curso em Vídeo/exercicio/age/img/young-woman.jpg';
+            img = 'https://i.imgur.com/Yylaf78.png';
         } else if (age <= 65){
-            img = '/home/elliwx/git/projetos-javascript/Curso em Vídeo/exercicio/age/img/adult-woman.jpg';
+            img = 'https://i.imgur.com/JQVMyOh.png';
         } else {
-            img = '/home/elliwx/git/projetos-javascript/Curso em Vídeo/exercicio/age/img/old-woman.jpg';
+            img = 'https://i.imgur.com/5y38PQy.png';
         }
     }
     divmsg.innerHTML = "<p>" + msg + "</p>";
-    divimg.innerHTML = '<img src="' +img +'"> </img>';
+    divimg.innerHTML = '<img src="' +img +'">';
 }
