@@ -10,14 +10,17 @@
 <body>
     <h1>Verifier of an Age!</h1>
     <main>
-        Born Year: <input type="text" id="bornYear"></br>
-        Sex: <input type="radio" id="man">Man
-        <input type="radio" id="woman">Woman</br>
-        <input type="button" value="Verify" onclick="verify()">
+        Born Year: <input type="text" placeholder="Here your birth year" id="bornYear"></br>
+        
+        <div id="option">
+            Sex: <input type="radio" id="man">Man
+            <input type="radio" id="woman">Woman</br>
+        </div>
+        <input type="button" value="Verify" onclick="verify()" id="verify">
         <div id="divmsg"></div>
         <div id="image"></div>
     </main>
-    <a href="https://github.com/BryanWille">Bryan Wille: GitHub</a>
+    <div id="createdBy"><a href="https://github.com/BryanWille">Bryan Wille: GitHub</a></div>
     <script src="javascript/script.js"></script>
 </body>
 </html>
