@@ -3,19 +3,53 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
 }
 body{
     background-color: rgb(0, 140, 255);
 }
 main{
-    width: 300px;
-    height: 200px;
+    width: 340px;
+    min-height: 200px;
+    height: auto;
     background-color: white;
     margin: auto;
-    padding: 4px;
-    border-radius: 6%;
+    padding: 10px;
+    border-radius: 3%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
 }
 div#image > img{
-    margin: auto;
+    margin: 10px auto 10px auto;
     max-width: 100%;
+}
+
+main > input#verify {
+    margin: 10px auto auto auto;
+    width: 120px;
+}
+
+div#createdBy {
+    margin-top: 10px;
+    text-align: center;
+}
+a {
+    font-size: 20px;
+    color: white;
+}
+p {
+    text-align: center;
+}
+a:hover{
+    color: black;
+}
+div#option{
+    margin-top: 10px;
 }
