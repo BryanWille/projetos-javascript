@@ -80,3 +80,31 @@ como é uma tag podemos colocar, nome id e class. mas as caixas de input também
 Number(variavel.value) para converter de string para number.
 ou seja
 value retorna o valor de um getElementsBy* 
+
+                Dia
+
+let hoje = new Date().getDay();
+let dia;
+
+onde dia varia de 0 a 6 e 0 = DOmingo, e 6 = Sabado
+
+                Arrays e For
+
+o equivalente do Java
+
+for(String array : vetor){}
+
+é
+
+for (let array of vetor){}
+
+também podemos navegar pelos indices
+
+trocando of por in.
+
+for (let indice in vetor){}
+
+vetor.push(var); adiciona um novo elemento ao final
+vetor.pop(); remove o último elemento
+vetor.unshift(var); adiciona ao começo
+vetor.shift(); remove do começo
