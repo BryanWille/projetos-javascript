@@ -8,19 +8,27 @@
     <title>Age Verifier</title>
 </head>
 <body>
-    <h1>Verifying your Age!</h1>
+    <header>
+        <h1>Verifying your Age!</h1>
+    </header>
     <main>
-        Born Year: <input type="text" placeholder="Here your birth year" id="bornYear"></br>
+        Born Year: <input type="text" placeholder="Here your birth year" id="bornYear">
         
         <div id="option">
-            Sex: <input type="radio" id="man">Man
-            <input type="radio" id="woman">Woman</br>
+            <p>Sex:
+            <input type="radio" name="option" id="man" checked>
+            <label for="man">Man</label>
+            <input type="radio" name="option" id="woman">
+            <label for="woman">Woman</label>
+            </p>
         </div>
         <input type="button" value="Verify" onclick="verify()" id="verify">
         <div id="divmsg"></div>
         <div id="image"></div>
     </main>
-    <div id="createdBy"><a href="https://github.com/BryanWille">Bryan Wille: GitHub</a></div>
+    <footer>
+        <p><a href="https://github.com/BryanWille">Bryan Wille: GitHub</a></p>
+    </footer>
     <script src="javascript/script.js"></script>
 </body>
 </html>

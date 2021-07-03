@@ -1,6 +1,6 @@
 function verify(){
     let divmsg, year, man, woman, yearToday, divimg, img;
-    yearToday = 2021
+    yearToday = new Date().getFullYear();
     year = document.getElementById("bornYear");
     year = Number(year.value);
     man = document.getElementById("man");
@@ -9,7 +9,7 @@ function verify(){
     divimg = document.getElementById("image");
     let msg;
     let age = 2021 - year;
-    if(age < 0){
+    if(age < 0 || age >= 140){
         window.alert("O ano de nascimento informado está incorreto!")
         window.alert("Por favor atualizar e corrigir!")
     } else if (man.checked){
@@ -35,6 +35,7 @@ function verify(){
             img = 'https://i.imgur.com/5y38PQy.png';
         }
     }
+    divmsg.style.textAlign = 'center';
     divmsg.innerHTML = "<p>" + msg + "</p>";
     divimg.innerHTML = '<img src="' +img +'">';
 }

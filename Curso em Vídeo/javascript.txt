@@ -108,3 +108,13 @@ vetor.push(var); adiciona um novo elemento ao final
 vetor.pop(); remove o último elemento
 vetor.unshift(var); adiciona ao começo
 vetor.shift(); remove do começo
+
+                Criar elementos em JavaScript
+
+para criar elementos no HTML em JAVASCRIPT temos qu eusar of
+
+var nome = document.createElement('tag_aqui');
+
+e para setar os atributos desse elemento:
+
+nome.setAttribute('atribuito', 'valor_atribuito');
