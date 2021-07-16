@@ -118,3 +118,24 @@ var nome = document.createElement('tag_aqui');
 e para setar os atributos desse elemento:
 
 nome.setAttribute('atribuito', 'valor_atribuito');
+
+nome.appendChild(conteudo);
+
+para inserir o conteúdo dentro de uma tag.
+
+
+                Arrays
+
+nome.length; Não precisa de parênteses não é metodo, retorna o tamanho da array.
+nome.push(valor); insere um valor na ultima posição da array.
+nome.sort(); deixa a array em ordem alfabetica ou decimal.
+
+for(let num in nome){
+        console.log(nome[num]);
+}
+
+Lê todas as posições da array;
+
+                funções
+
+Podemos iniciar uma função no parametro, para caso o valor não seja repasado.
